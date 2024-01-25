@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My meal plan form </title>
+    </head>
+
+    <body>
+        <h1> My meal plan form </h1>
+
+        <form action = '' id = 'main' style = 'background-color: #efeaea;'>
+            <h3> Date: <div id = 'date'></div> </h3>
+
+            <!-- <h3> Date record num: <div id = 'rec_num'></div> </h3> -->
+
+            <h3><label for = 'meal_name'> Meal name: </label> <input type="text" id = 'meal_name' required></h3>
+
+            <h3><label for = 'quantity'> Quantity: </label> <input type="number" id = 'quantity' min = '1' required></h3>
+
+            <h3><label for = 'price'> Price: </label> <input type="number" id = 'price' min = '1' required></h3>
+
+            <h3><label for = 'eatery'> Eatery: </label> </h3>
+            <select id = 'eatery' name = 'eatery'>
+                <option value = 'Munchies'>Munchies</option>
+                <option value = 'Big Ben'>Big Ben</option>
+                <option value = 'Akornor'>Akornor</option>
+                <option value = 'Hakuna'>Hakuna</option>
+                <option value = 'Other'>Other</option>
+            </select>
+
+            <h3> Total cost: <div id = 'total_cost'></div> </h3>
+
+            <button type="submit">Envoyer</button>
+        </form>
+
+        <script src = 'main.js'></script>
+        <!-- Created on 24 Jan '24 -->
+    </body>
+</html>

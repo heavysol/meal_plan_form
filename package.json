@@ -1,0 +1,11 @@
+{
+  "name": "my-meal-plan-folder",
+  "version": "1.0.0",
+  "description": "node file for my personal meal plan database",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kojo Lemaire",
+  "license": "ISC"
+}
