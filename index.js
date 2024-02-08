@@ -15,7 +15,7 @@ app.post("/", function (req, res) {
   const price = req.body.price;
   const eatery = req.body.eatery;
   const totalCost = req.body.totalCost;
-  console.log("yes");
+
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
