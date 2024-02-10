@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 3001;
 const bodyParser = require("body-parser");
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -15,6 +15,10 @@ app.post("/", function (req, res) {
   const price = req.body.price;
   const eatery = req.body.eatery;
   const totalCost = req.body.totalCost;
+  console.log(qty);
+  console.log(price);
+  // console.log();
+  // console.log();
 
 });
 
